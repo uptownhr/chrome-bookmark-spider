@@ -1,0 +1,19 @@
+{
+  "name": "scr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bookmark-json": "node index.js",
+    "spider": "node a_spider.js",
+    "static": "node static.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "cheerio": "^0.20.0",
+    "express": "^4.14.0"
+  }
+}
